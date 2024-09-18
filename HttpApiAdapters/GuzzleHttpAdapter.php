@@ -1,0 +1,37 @@
+<?php
+
+namespace HttpApiAdapters;
+
+require './HttpApiAdapters/HttpAdapterInterface.php';
+
+use GuzzleHttp\ClientInterface;
+use GuzzleHttp\Client;
+
+final class GuzzleHttpAdapter implements HttpAdapterInterface {
+
+    private ClientInterface $client;
+
+    public function __construct($base_url)
+    {
+        $this->client = new Client(['base_uri' => $base_url]);
+    }
+
+    public function sendGetRequest(string $uri, $params = [], $headers = [])
+    {
+        return $this->client->request('GET', $uri, 
+        [
+            'query' => $params,
+        ],
+        )->getBody();
+    }
+
+    public function sendPostRequest(string $uri, $params = [], $headers = [])
+    {
+        return $this->client->request('POST', $uri, 
+        [
+            'body' => $params,
+            'headers' => $headers
+        ]
+        )->getBody();
+    }
+}

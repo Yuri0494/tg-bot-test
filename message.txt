@@ -1,0 +1,331 @@
+2024-09-01 07:31:05 Array
+(
+    [update_id] => 524653976
+    [message] => Array
+        (
+            [message_id] => 27
+            [from] => Array
+                (
+                    [id] => 788788415
+                    [is_bot] => 
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 788788415
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [type] => private
+                )
+
+            [date] => 1725175866
+            [photo] => Array
+                (
+                    [0] => Array
+                        (
+                            [file_id] => AgACAgIAAxkBAAMbZtQYOlXMf6TImesx2hNK-msFkrgAAizdMRumaqBKNjE3ReC8zUYBAAMCAANzAAM1BA
+                            [file_unique_id] => AQADLN0xG6ZqoEp4
+                            [file_size] => 1772
+                            [width] => 90
+                            [height] => 71
+                        )
+
+                    [1] => Array
+                        (
+                            [file_id] => AgACAgIAAxkBAAMbZtQYOlXMf6TImesx2hNK-msFkrgAAizdMRumaqBKNjE3ReC8zUYBAAMCAANtAAM1BA
+                            [file_unique_id] => AQADLN0xG6ZqoEpy
+                            [file_size] => 20057
+                            [width] => 320
+                            [height] => 253
+                        )
+
+                    [2] => Array
+                        (
+                            [file_id] => AgACAgIAAxkBAAMbZtQYOlXMf6TImesx2hNK-msFkrgAAizdMRumaqBKNjE3ReC8zUYBAAMCAAN4AAM1BA
+                            [file_unique_id] => AQADLN0xG6ZqoEp9
+                            [file_size] => 74697
+                            [width] => 800
+                            [height] => 633
+                        )
+
+                    [3] => Array
+                        (
+                            [file_id] => AgACAgIAAxkBAAMbZtQYOlXMf6TImesx2hNK-msFkrgAAizdMRumaqBKNjE3ReC8zUYBAAMCAAN5AAM1BA
+                            [file_unique_id] => AQADLN0xG6ZqoEp-
+                            [file_size] => 119361
+                            [width] => 1200
+                            [height] => 950
+                        )
+
+                )
+
+        )
+
+)
+
+2024-09-01 07:32:05 Array
+(
+    [update_id] => 524653977
+    [message] => Array
+        (
+            [message_id] => 28
+            [from] => Array
+                (
+                    [id] => 788788415
+                    [is_bot] => 
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 788788415
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [type] => private
+                )
+
+            [date] => 1725175926
+            [text] => sadasd
+        )
+
+)
+
+2024-09-01 07:32:06 Array
+(
+    [update_id] => 524653978
+    [message] => Array
+        (
+            [message_id] => 29
+            [from] => Array
+                (
+                    [id] => 788788415
+                    [is_bot] => 
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 788788415
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [type] => private
+                )
+
+            [date] => 1725175927
+            [text] => asdasd
+        )
+
+)
+
+2024-09-01 07:32:07 Array
+(
+    [update_id] => 524653979
+    [message] => Array
+        (
+            [message_id] => 30
+            [from] => Array
+                (
+                    [id] => 788788415
+                    [is_bot] => 
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 788788415
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [type] => private
+                )
+
+            [date] => 1725175928
+            [text] => asdasd
+        )
+
+)
+
+2024-09-01 07:35:40 
+2024-09-01 07:35:52 stdClass Object
+(
+    [update_id] => 524653980
+    [message] => stdClass Object
+        (
+            [message_id] => 31
+            [from] => stdClass Object
+                (
+                    [id] => 788788415
+                    [is_bot] => 
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [language_code] => ru
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 788788415
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [type] => private
+                )
+
+            [date] => 1725176153
+            [text] => ХЕЛЛОУ
+        )
+
+)
+
+2024-09-01 07:45:17 stdClass Object
+(
+    [update_id] => 524653981
+    [message] => stdClass Object
+        (
+            [message_id] => 32
+            [from] => stdClass Object
+                (
+                    [id] => 788788415
+                    [is_bot] => 
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [language_code] => ru
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 788788415
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [type] => private
+                )
+
+            [date] => 1725176718
+            [text] => asdasd
+        )
+
+)
+
+2024-09-01 07:46:17 stdClass Object
+(
+    [update_id] => 524653981
+    [message] => stdClass Object
+        (
+            [message_id] => 32
+            [from] => stdClass Object
+                (
+                    [id] => 788788415
+                    [is_bot] => 
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [language_code] => ru
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 788788415
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [type] => private
+                )
+
+            [date] => 1725176718
+            [text] => asdasd
+        )
+
+)
+
+2024-09-01 07:47:19 stdClass Object
+(
+    [update_id] => 524653981
+    [message] => stdClass Object
+        (
+            [message_id] => 32
+            [from] => stdClass Object
+                (
+                    [id] => 788788415
+                    [is_bot] => 
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [language_code] => ru
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 788788415
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [type] => private
+                )
+
+            [date] => 1725176718
+            [text] => asdasd
+        )
+
+)
+
+2024-09-01 07:48:24 stdClass Object
+(
+    [update_id] => 524653981
+    [message] => stdClass Object
+        (
+            [message_id] => 32
+            [from] => stdClass Object
+                (
+                    [id] => 788788415
+                    [is_bot] => 
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [language_code] => ru
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 788788415
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [type] => private
+                )
+
+            [date] => 1725176718
+            [text] => asdasd
+        )
+
+)
+
+2024-09-01 07:49:19 
+2024-09-01 07:49:32 stdClass Object
+(
+    [update_id] => 524653981
+    [message] => stdClass Object
+        (
+            [message_id] => 32
+            [from] => stdClass Object
+                (
+                    [id] => 788788415
+                    [is_bot] => 
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [language_code] => ru
+                )
+
+            [chat] => stdClass Object
+                (
+                    [id] => 788788415
+                    [first_name] => Yuri
+                    [username] => Bagaev33
+                    [type] => private
+                )
+
+            [date] => 1725176718
+            [text] => asdasd
+        )
+
+)
+
