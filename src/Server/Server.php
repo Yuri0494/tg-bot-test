@@ -6,11 +6,12 @@ use Exception;
 use GuzzleHttp\Client;
 use App\TelegramBot\TelegramBot;
 use App\TelegramBotRequest\TelegramBotRequest;
-use App\HttpApiAdapters\TelegramApi;
 use App\Database\FileSystemBotDb;
 use App\Buttons\ButtonService;
-use App\WheatherApiAdapters\WheatherApiFree;
-use App\WheatherApiAdapters\Wheather;
+use App\Api\WheatherApiAdapters\WheatherApiFree;
+use App\Api\WheatherApiAdapters\Wheather;
+use App\Api\TelegramApi\TelegramApi;
+use App\HttpApiAdapters\GuzzleHttpAdapter;
 
 class Server {
     private $tgBot;
@@ -21,7 +22,7 @@ class Server {
     {
         $this->tgBot = new TelegramBot(
             new FileSystemBotDb(__DIR__ . '/db2.json'), 
-            new TelegramApi(new Client(['base_uri' => 'https://api.telegram.org/bot6768896921:AAHSiWv6mmLSdd6b7kLVOIy9XXKltN8KIlg/']))
+            new TelegramApi((new GuzzleHttpAdapter('https://api.telegram.org/bot6768896921:AAHSiWv6mmLSdd6b7kLVOIy9XXKltN8KIlg/')))
         );
         $this->request = new TelegramBotRequest(json_decode(file_get_contents('php://input'), true));
         $this->chatID = (string) $this->request->getChatID();
@@ -29,7 +30,6 @@ class Server {
 
     public function handleRequest()
     {
-
         $isNewMember = !$this->tgBot->db->chatIdExists($this->chatID);
 
         if($isNewMember) {
