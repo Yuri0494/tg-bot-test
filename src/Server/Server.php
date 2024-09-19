@@ -1,21 +1,16 @@
 <?php
 
-require './TelegramBot.php';
-require './FileSystemBotDb.php';
-require './TelegramBotRequest.php';
-require './queries/TelegramApi.php';
-require './buttons/ButtonService.php';
-require './wheatherApiAdapters/WheatherApiFree.php';
-require './wheatherApiAdapters/Wheather.php';
+namespace App\Server;
 
+use Exception;
 use GuzzleHttp\Client;
-use TelegramBot;
-use FileSystemBotDb;
-use TelegramBotRequest;
-use TelegramApi;
-use ButtonService;
-use Wheather;
-use wheatherApiAdapters\WheatherApiFree;
+use App\TelegramBot\TelegramBot;
+use App\TelegramBotRequest\TelegramBotRequest;
+use App\HttpApiAdapters\TelegramApi;
+use App\Database\FileSystemBotDb;
+use App\Buttons\ButtonService;
+use App\WheatherApiAdapters\WheatherApiFree;
+use App\WheatherApiAdapters\Wheather;
 
 class Server {
     private $tgBot;

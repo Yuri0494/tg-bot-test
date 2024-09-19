@@ -1,11 +1,8 @@
 <?php
 
-require './buttons/Button.php';
-
-use Button;
+namespace App\Buttons;
 
 final class ButtonService {
-
 
     private function __construct()
     {

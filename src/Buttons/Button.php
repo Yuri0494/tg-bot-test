@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Buttons;
+
 class Button {
     private string $text;
     private string $callbackData;

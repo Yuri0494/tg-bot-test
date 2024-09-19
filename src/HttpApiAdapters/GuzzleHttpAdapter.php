@@ -1,8 +1,6 @@
 <?php
 
-namespace HttpApiAdapters;
-
-require './HttpApiAdapters/HttpAdapterInterface.php';
+namespace App\HttpApiAdapters;
 
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Client;

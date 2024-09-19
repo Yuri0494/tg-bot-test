@@ -1,6 +1,6 @@
 <?php
 
-namespace HttpApiAdapters;
+namespace App\HttpApiAdapters;
 
 interface HttpAdapterInterface {
     public function sendGetRequest(string $uri, $params = [], $headers = []);

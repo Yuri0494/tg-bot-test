@@ -1,6 +1,6 @@
 <?php
 
-
+namespace App\TelegramBotRequest;
 
 class TelegramBotRequest {
     public $data;

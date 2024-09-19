@@ -1,5 +1,9 @@
 <?php
 
+namespace App\WheatherApiAdapters;
+
+use Exception;
+
 final class Wheather {
     private string $datetime;
     private int $temp;

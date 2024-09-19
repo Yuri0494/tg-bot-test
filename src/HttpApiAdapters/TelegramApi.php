@@ -1,5 +1,7 @@
 <?php
 
+namespace App\HttpApiAdapters;
+
 use GuzzleHttp\ClientInterface;
 
 class TelegramApi {

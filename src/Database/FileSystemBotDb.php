@@ -1,6 +1,8 @@
 <?php
 
+namespace App\Database;
 
+use Exception;
 
 class FileSystemBotDb {
     private string $path;

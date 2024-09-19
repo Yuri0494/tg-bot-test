@@ -1,9 +1,8 @@
 <?php
 
-require 'vendor/autoload.php';
-require './TelegramApiInterface.php';
+namespace App\TelegramBot;
 
-use GuzzleHttp\ClientInterface;
+use App\Database\FileSystemBotDb;
 
 class TelegramBot {
     public $api;

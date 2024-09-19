@@ -1,13 +1,10 @@
 <?php
 
-namespace wheatherApiAdapters;
-
-require './wheatherApiAdapters/WheatherApiInterface.php';
-require './HttpApiAdapters/GuzzleHttpAdapter.php';
+namespace App\WheatherApiAdapters;
 
 use Exception;
-use HttpApiAdapters\HttpAdapterInterface;
-use HttpApiAdapters\GuzzleHttpAdapter;
+use App\HttpApiAdapters\HttpAdapterInterface;
+use App\HttpApiAdapters\GuzzleHttpAdapter;
 
 final class WheatherApiFree implements WheatherApiInterface {
     private string $token = '9PXX6XAW4DVP5ZW4KDKA4LZ6R'; // Токены и другие приватные данные должны добавляться через переменные окружения или конфигурации к приложению
